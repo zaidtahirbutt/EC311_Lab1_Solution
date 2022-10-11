@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Testing 4 bit adder subtractor",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest add_sub_4_bit/tb",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 40
+    },
+    {
+      "name": "Testing 4 bit ALU",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest alu_4_bit/tb",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 40
+    }
+  ]
+}
